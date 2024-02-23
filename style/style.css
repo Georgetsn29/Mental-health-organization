@@ -236,6 +236,10 @@ section.welcome .welcome-desktop {
 
 .subscribe div input[type=email]::placeholder {
     font-size: 5.54px;
+}
+
+.subscribe div input[type=email]::placeholder {
+    font-size: 5.54px;
     color: #606060;
     font-family: poppins;
     font-weight: 300;
@@ -281,7 +285,7 @@ footer .footer-nav ul {
 footer .footer-nav ul li a {
     font-size: 7.41px;
     font-family: inter;
-
+    color: #000000;
 }
 
 footer .footer-main {
@@ -313,27 +317,8 @@ footer .footer-main p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*! Tablet !*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 815px) {
 
     .container {
         max-width: 1439px;
@@ -343,13 +328,6 @@ footer .footer-main p {
     header {
         padding-inline: 60px 0px;
         margin-top: 38px;
-    }
-    
-    header nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
     }
     
     header nav .nav-links {
@@ -392,41 +370,19 @@ footer .footer-main p {
     
     .welcome-main h1 {
         font-size: 58.06px;
-        font-family: poppins;
-        font-weight: 500;
-        line-height: 118%;
-        color: #000000;
     }
     
     .welcome-main p {
         font-size: 19.38px;
-        font-family: inter;
-        font-weight: 300;
-        color: #000000;
-        line-height: 142.8%;
-        letter-spacing: 4%;
         margin-block: 15px;
         font-size: 19.38px;
     }
     
     .welcome-main .welcome-btn a {
-        font-family: inter;
         font-size: 19.08px;
-        color: #000000;
         padding-block: 12.11px;
         padding-inline: 37.56px;
-        background: linear-gradient(to right, rgba(221, 211, 239, .55) 0%, #FDD9FF 35%, #B2E0FE 100%);
-        border-radius: 4.85px;
-        display: block;
         width: 137.11px;
-    }
-
-    .welcome-main .welcome-btn .wd-btn {
-        display: none;
-    }
-    
-    section.welcome .welcome-desktop {
-        display: none;
     }
     
     .cards-section {
@@ -437,127 +393,87 @@ footer .footer-main p {
     .cards-section .container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        width: 855px;
+        width: 805px;
     }
     
     .cards-section .cards-header {
-        background-color: #000000;
         padding-block: 81.68px 176.03px;
         padding-inline: 20.89px 44.15px;
     }
     
     .cards-section .cards-header .ch-inner {
-        display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        justify-content: space-between;
     }
     
     .cards-section .regular-cards {
-        background-color: #ffffff;
-        margin: auto;
         border-radius: 19.44px;
         margin-bottom: 140px;
         margin-top: -120px;
-        box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.118);
-        width: 279.85px;
     }
     
     .regular-cards .doc-img {
-        padding-top: 19.44px;
-        width: 244.87px;
+        padding-top: 17.50px;
         min-width: 226.86px;
         border-radius: 7px;
         display: block;
-        margin: auto;
     }
     
     .regular-cards .rate img {
         margin-top: 9.1px;
-        padding-left: 25px;
+        padding-left: 17.50px;
     }
     
     .regular-cards .names {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center; 
-        padding-inline: 25px;
+        padding-inline: 17.50px;
         margin-top: 6px;
     }
     
     .regular-cards .names .dr {
-        font-family: roboto;
-        color: #42445D;
-        font-weight: 500;
         font-size: 12.59px;
     }
     
     .regular-cards .names .green-circle {
-        background-color: #6bd17b;
         width: 11.19px;
         height: 11.19px;
-        border-radius: 100% ;
-        border: none;
     }
     
     .regular-cards .names .names-right {
         width: 60.8px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
     
     .regular-cards .names .names-right p {
-        font-family: poppins;
-        font-weight: 400;
         font-size: 9.87px;
     }
     
     .regular-cards .cards-text {
-        color: #42445D;
         font-size: 9.79px;
-        font-family: roboto;
         line-height: 14.7px;
         margin-top: 4px;
-        padding-inline: 25px;
+        padding-inline: 17.50px;
     }
     
     .regular-cards .reg-cards-book {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding-left: 25px;
+        padding-left: 17.50px;
         margin-top: 6.07px;
         padding-bottom: 22.74px;
     }
     
     .regular-cards .reg-cards-book .border-wrap {
-        background: linear-gradient(to right, rgba(221, 211, 239, .55) 0%, #FDD9FF 35%, #B2E0FE 100%);
-        padding: 1px;
         border-radius: 2.98px;
     }
     
     .regular-cards .reg-cards-book p {
         font-size: 12.67px;
-        font-family: inter;
-        background-color: #ffffff;
         padding-block: 8.24px;
         padding-inline: 5.26px;
     }
     
     .regular-cards .reg-cards-book a img {
         margin-left: 9.79px;
-
     }
     
     .cards-section .cards-foot {
         width: 220.29px;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        align-items: center;
     }
     
     .cards-section .cards-foot img {
@@ -565,23 +481,16 @@ footer .footer-main p {
     }
     
     .cards-section .cards-foot p {
-        font-family: inter;
         font-size: 18.11px;
     }
     
     .subscribe {
-        background: url(../img/Background.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
         height: 178px;
     }
     
     .subscribe p {
         font-size: 32.75px;
-        font-family: poppins;
-        font-weight: 500;
         padding-top: 39.27px;
-        text-align: center;
         margin-bottom: 6.37px;
     }
     
@@ -598,24 +507,20 @@ footer .footer-main p {
         width: 366.93px;
         height: 32.9px;
         font-size: 12.75px;
-        color: #606060;
-        font-family: poppins;
-        font-weight: 300;
         padding-block: 7px;
         padding-inline: 12px;
-        border: 1 solid rgba(0, 0, 0, 42%);
         border-radius: 4px;
+    }
+
+    .subscribe div input[type=email]::placeholder {
+        font-size: 12.75px;
     }
     
     .subscribe div input[type=submit] {
-        background-color: #000000;
-        color: #ffffff;
         font-size: 16.11px;
-        font-family: inter;
         border-radius: 4.6px;
         padding-block: 9.5px;
         padding-inline: 32.14px;
-        border: none;
     }
     
     footer {
@@ -624,11 +529,6 @@ footer .footer-main p {
     }
     
     footer .footer-nav {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
         margin-bottom: 46.22px;
     }
     
@@ -637,26 +537,16 @@ footer .footer-main p {
     }
     
     footer .footer-nav ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         width: 396.04px;
         margin-right: 85.96px;
     }
     
     footer .footer-nav ul li a {
         font-size: 15.75px;
-        font-family: inter;
-        color: #000000;
     }
     
     footer .footer-main {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
         margin-bottom: 57px;
-        text-align: center;
     }
 
     footer .footer-main .social img {
@@ -665,18 +555,9 @@ footer .footer-main p {
     
     footer .footer-main p {
         font-size: 15.75px;
-        font-family: inter;
-        letter-spacing: 0.5px;
-        color: rgba(0, 0, 0, 57%);
+        padding-right: 40px;
     }
 }
-
-
-
-
-
-
-
 
 
 
@@ -700,46 +581,6 @@ footer .footer-main p {
         margin-top: 27px;
     }
     
-    header nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    header nav .nav-links {
-        display: block;
-        width: 398px;
-    }
-
-    header nav .nav-links ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    header nav .nav-links ul li a {
-        font-size: 15.75px;
-        font-family: inter;
-        font-weight: 500;
-    }
-    
-    header nav .header-sign-in {
-        display: block;
-        font-size: 15.75px;
-        font-family: inter;
-        color: #000000;
-        background: linear-gradient(to right, rgba(221, 211, 239, .55) 0%, #FDD9FF 35%, #B2E0FE 100%);
-        padding-block: 10px;
-        padding-inline: 31px;
-        border: none;
-        border-radius: 4px;
-    }
-
-    header nav .hamburger {
-        display: none;
-    }
-    
     section.welcome {
         margin-top: 58.16px;
         padding-inline: 140px 92.17px;
@@ -757,33 +598,13 @@ footer .footer-main p {
     
     .welcome-main h1 {
         font-size: 55.1px;
-        font-family: poppins;
-        font-weight: 500;
-        line-height: 118%;
-        color: #000000;
     }
     
     .welcome-main p {
         font-size: 18.4px;
-        font-family: inter;
-        font-weight: 300;
-        color: #000000;
-        line-height: 142.8%;
-        letter-spacing: 4%;
         margin-top: 21.8px;
         font-size: 19.38px;
         max-width: 558.02px;
-    }
-    
-    .welcome-main .welcome-btn a {
-        font-family: inter;
-        font-size: 18.11px;
-        color: #000000;
-        padding-block: 11.5px;
-        padding-inline: 35.64px;
-        background: linear-gradient(to right, rgba(221, 211, 239, .55) 0%, #FDD9FF 35%, #B2E0FE 100%);
-        border-radius: 4.6px;
-        display: block;
     }
 
     .welcome-main .welcome-btn {
@@ -822,42 +643,31 @@ footer .footer-main p {
     }
     
     .cards-section .cards-header {
-        background-color: #000000;
         padding-block: 30.93px 193.52px;
         padding-inline: 94.5px 94.5px;
     }
     
     .cards-section .cards-header .ch-inner {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        justify-content: space-between;
         height: 110.9px;
     }
 
     .cards-section .container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        width: 1220px;
-        margin: auto;
+        width: 1140px;
     }
     
     .cards-section .regular-cards {
-        background-color: #ffffff;
-        margin: auto;
         border-radius: 30px;
         margin-bottom: 140px;
         margin-top: -180px;
-        box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.118);
-        width: 400px;
+        width: 370px;
     }
     
     .regular-cards .doc-img {
         padding-top: 30px;
         width: 350px;
         border-radius: 10px;
-        display: block;
         margin: auto;
     }
     
@@ -867,145 +677,83 @@ footer .footer-main p {
     }
     
     .regular-cards .names {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center; 
         padding-inline: 25px;
         margin-top: 10px;
     }
     
     .regular-cards .names .dr {
-        font-family: roboto;
-        color: #42445D;
-        font-weight: 500;
         font-size: 18px;
     }
     
     .regular-cards .names .green-circle {
-        background-color: #6bd17b;
         width: 16px;
         height: 16px;
-        border-radius: 100% ;
-        border: none;
     }
     
     .regular-cards .names .names-right {
         width: 93px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
     
     .regular-cards .names .names-right p {
-        font-family: poppins;
-        font-weight: 400;
         font-size: 14.11px;
     }
     
     .regular-cards .cards-text {
-        color: #42445D;
         font-size: 14px;
-        font-family: roboto;
         line-height: 21px;
         margin-top: 6px;
         padding-inline: 25px;
     }
     
     .regular-cards .reg-cards-book {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
         padding-left: 25px;
         margin-top: 10px;
         padding-bottom: 30px;
     }
     
-    .regular-cards .reg-cards-book .border-wrap {
-        background: linear-gradient(to right, rgba(221, 211, 239, .55) 0%, #FDD9FF 35%, #B2E0FE 100%);
-        padding: 1px;
-        border-radius: 2.98px;
-    }
-    
     .regular-cards .reg-cards-book p {
         font-size: 18.11px;
-        font-family: inter;
-        background-color: #ffffff;
         padding-block: 11.5px;
         padding-inline: 7.5px;
     }
     
     .regular-cards .reg-cards-book a img {
         margin-left: 14px;
-        width: 60px;
-    }
-    
-    .cards-section .cards-foot {
-        width: 220.29px;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        align-items: center;
-    }
-    
-    .cards-section .cards-foot img {
-        width: 30.24px;
-    }
-    
-    .cards-section .cards-foot p {
-        font-family: inter;
-        font-size: 18.11px;
+        width: 90px;
     }
     
     .subscribe {
-        background: url(../img/Background.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
         height: 268px;
         margin-top: -40px;
     }
     
     .subscribe p {
         font-size: 36.75px;
-        font-family: poppins;
         font-weight: 600;
-        padding-top: 39.27px;
-        text-align: center;
         margin-bottom: 10px;
         padding-top: 79px;
     }
     
     .subscribe div {
         width: 576px;
-        margin: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
     }
     
     .subscribe div input[type=email] {
         width: 438.38px;
         height: 47.9px;
         font-size: 17.75px;
-        color: #606060;
-        font-family: poppins;
-        font-weight: 300;
         padding-block: 10px;
         padding-inline: 30.8px;
-        border: 1 solid rgba(0, 0, 0, 42%);
-        border-radius: 4px;
+    }
+
+    .subscribe div input[type=email]::placeholder {
+        font-size: 17.75px;
     }
     
     .subscribe div input[type=submit] {
-        background-color: #000000;
-        color: #ffffff;
         font-size: 16.11px;
-        font-family: inter;
-        border-radius: 4.6px;
         padding-block: 11.5px;
         padding-inline: 35.64px;
-        border: none;
     }
     
     footer {
@@ -1014,37 +762,11 @@ footer .footer-main p {
     }
     
     footer .footer-nav {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
         margin-bottom: 52px;
     }
     
-    footer .footer-nav img {
-        height: 44.72px;
-    }
-    
-    footer .footer-nav ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 396.04px;
-    }
-    
-    footer .footer-nav ul li a {
-        font-size: 15.75px;
-        font-family: inter;
-    }
-    
     footer .footer-main {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
         margin-bottom: 51px;
-        text-align: center;
     }
 
     footer .footer-main .social img {
@@ -1052,9 +774,6 @@ footer .footer-main p {
     }
     
     footer .footer-main p {
-        font-size: 15.75px;
-        font-family: inter;
         letter-spacing: 0.5px;
-        color: rgba(0, 0, 0, 57%);
     }
 }
